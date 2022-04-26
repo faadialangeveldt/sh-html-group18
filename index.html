@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+  rel="stylesheet">
 <html lang="en">
 
 <head>
@@ -6,18 +10,127 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SH HTML Group 18</title>
+
+  <style>
+    body {
+      background-color: hsl(218, 28%, 13%);
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header img {
+      width: 30%;
+    }
+
+    .hero {
+      width: 75%;
+      margin: 0 auto;
+    }
+
+    .hero img {
+      width: 100%
+    }
+
+    .navigation {
+      display: flex;
+    }
+
+    .navigation a {
+      float: right;
+      color: white;
+      text-align: center;
+      padding: 20px 5px;
+      text-decoration: none;
+      font-size: 15px;
+
+    }
+
+    .navigation a:hover {
+      color: #ddd;
+      text-decoration: underline;
+    }
+
+    .header-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .header-container-section {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 95%;
+    }
+
+    .header-container-section h1 {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    button {
+      background-color: hsl(176, 68%, 64%);
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 30px;
+      width: 65%;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    @media screen and (min-width: 900px) {
+      .navigation a {
+        padding: 14px 16px;
+        font-size: 17px;
+      }
+      
+      .header img {
+        width: auto;
+      }
+
+      .container {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>HTML Project of Group 18.</h1>
+  <!-- Beginning of Faadia's section -->
   <section>
-    <!-- Beginning of Faadia's section -->
-    <!-- ONLY MAKE CHANGES IN BETWEEN THE PARTS YOU'RE REQUIRED TO , TO AVOID MERGE CONFLICTS -->
- 
+    <div class="header">
+      <img src="./Images/logo.svg" />
+      <div class="navigation">
+        <a class="active" href="/">Features</a>
+        <a href="/">Team</a>
+        <a href="/">Sign In</a>
+      </div>
+    </div>
 
-    
-    <!-- End of Faadia's section -->
+    <div class="container">
+      <div class="hero">
+        <img src="./Images/illustration-intro.png" />
+      </div>
+
+      <div class="header-container">
+        <img src="./Images/bg-curvy-mobile.svg" />
+
+        <div class="header-container-section">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores all your most important files in one secure location. Access them whenever you need, share and
+            collaborate with friends, family and co-workers.</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div>
   </section>
+  <!-- End of Faadia's section -->
 </body>
 
 </html>
