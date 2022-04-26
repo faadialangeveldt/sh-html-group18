@@ -12,6 +12,7 @@
   <title>SH HTML Group 18</title>
 
   <style>
+    /* Faadia's styling changes */
     body {
       background-color: hsl(218, 28%, 13%);
       font-family: 'Raleway', sans-serif;
@@ -83,12 +84,86 @@
       margin: 20px 0;
     }
 
+    /* End of Faadia's styling changes */
+
+    /* Bolu's styling changes */
+    h3 {
+      font-family: raleway;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    p {
+      font-family: open sans;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .first_image {
+      background-image: url(./Images/icon-access-anywhere.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .second_image {
+      background-image: url(./Images/icon-security.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .third_image {
+      background-image: url(./Images/icon-collaboration.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 25px;
+    }
+
+    .fourth_image {
+      background-image: url(./Images/icon-any-file.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+
+    .first_part {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+      margin-top: 200px;
+    }
+
+    .second_part {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+    }
+
+    /* End of Bolu's styling changes */
+
     @media screen and (min-width: 900px) {
+
+      /* Faadia styling changes */
       .navigation a {
         padding: 14px 16px;
         font-size: 17px;
       }
-      
+
       .header img {
         width: auto;
       }
@@ -97,6 +172,26 @@
         width: 50%;
         margin: auto;
       }
+
+      /* End of Faadia's styling changes */
+
+      /* Bolu's styling changes */
+
+      .first_part {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+        margin-top: 170px;
+      }
+
+      .second_part {
+      display: flex;
+      width: 80%;
+      margin: auto;
+    }
+
+      /* End of Bolu's styling changes */
     }
   </style>
 </head>
@@ -131,6 +226,57 @@
     </div>
   </section>
   <!-- End of Faadia's section -->
+
+  <!-- Beginning of Bolu's section -->
+  <section>
+    <div class="general" id="general">
+      <div class="first_part" id="first_part">
+        <div class="first-box">
+          <div class="first_image" id="first_image">
+            <!--The first image is here-->
+          </div>
+          <div class="first_paragraph" id="first_paragraph">
+            <h3>Access your files, anywhere</h3>
+            <p>The ability to use your smartphone, tablet, or computer to access your account means your
+              file follow you everywhere.</p>
+          </div>
+        </div>
+        <div class="second-box" id="second-box">
+          <div class="second_image" id="second_image">
+            <!--The second image is here-->
+          </div>
+          <div class="second_paragraph" id="second_paragraph">
+            <h3>Security you can trust</h3>
+            <p>2-factor authentication and user-controlled encryption are just a couple of the security
+              features we allow to help secure your files.</p>
+          </div>
+        </div>
+      </div>
+      <div class="second_part" id="second_part">
+        <div class="third-box" id="third-box">
+          <div class="third_image" id="third_image">
+            <!--The third image is here-->
+          </div>
+          <div class="third_paragraph" id="third_paragraph">
+            <h3>Real-time collaboration</h3>
+            <p>Securely share files and folders with friends, family, and colleagues for the collaboration.
+              No email attachments required.</p>
+          </div>
+        </div>
+        <div class="fourth-box">
+          <div class="fourth_image" id="fourth_image">
+            <!--The fourth image is here-->
+          </div>
+          <div class="fourth_paragraph" id="fourth_paragraph">
+            <h3>Store any type of file</h3>
+            <p>Whether you're sharing holidays photos or work documents, fylo has you covered, allowing for
+              all file types to be securely stored and shared.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Bolu's section -->
 </body>
 
 </html>
