@@ -193,6 +193,7 @@
     .social-icons {
       text-align: center;
     }
+
     .social-icons .fa {
       padding: 10px;
       text-align: center;
@@ -308,6 +309,29 @@
         width: 50%;
         margin: auto;
         border-radius: 0;
+      }
+
+      .footer-container {
+        display: flex;
+      }
+
+      .description {
+        width: 30%;
+      }
+
+      .description-details {
+        display: inline;
+        width: 30%;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0 30px;
+      }
+
+      footer nav {
+        width: 30%;
+        display: flex;
       }
 
       /* End of Faadia's styling changes */
@@ -517,40 +541,45 @@
   <footer>
     <img src="./Images/logo.svg" />
 
-    <div>
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua</p>
-    </div>
+    <div class="footer-container">
+      <div class="description">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua</p>
+      </div>
+      <div class="description-details">
+        <div>
+          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+          <p>+1-543-123-4567</p>
+        </div>
 
-    <div>
-      <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-      <p>+1-543-123-4567</p>
-    </div>
-    <div>
-      <i class="fa fa-google" aria-hidden="true"></i>
-      <p>example@fylo.com</p>
-    </div>
+        <div>
+          <i class="fa fa-google" aria-hidden="true"></i>
+          <p>example@fylo.com</p>
+        </div>
+      </div>
 
-    <nav>
-      <ul>
-        <li>About Us</li>
-        <li>Jobs</li>
-        <li>Press</li>
-        <li>Blog</li>
-      </ul>
+      <nav>
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
 
-      <ul>
-        <li>Contact Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
-      </ul>
-    </nav>
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </nav>
 
-    <div class="social-icons">
-      <i class="fa fa-facebook-f"></i>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-instagram"></i>
+      <div class="social-icons">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
     </div>
 
   </footer>
