@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+  rel="stylesheet">
 <html lang="en">
 
 <head>
@@ -6,8 +10,193 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SH HTML Group 18</title>
+
+  <style>
+    /* Faadia's styling changes */
+    body {
+      background-color: hsl(218, 28%, 13%);
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header img {
+      width: 30%;
+    }
+
+    .hero {
+      width: 75%;
+      margin: 0 auto;
+    }
+
+    .hero img {
+      width: 100%
+    }
+
+    .navigation {
+      display: flex;
+    }
+
+    .navigation a {
+      float: right;
+      color: white;
+      text-align: center;
+      padding: 20px 5px;
+      text-decoration: none;
+      font-size: 15px;
+
+    }
+
+    .navigation a:hover {
+      color: #ddd;
+      text-decoration: underline;
+    }
+
+    .header-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .header-container-section {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 95%;
+    }
+
+    .header-container-section h1 {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    button {
+      background-color: hsl(176, 68%, 64%);
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 30px;
+      width: 65%;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    /* End of Faadia's styling changes */
+
+    /* Bolu's styling changes */
+    h3 {
+      font-family: raleway;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    p {
+      font-family: open sans;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .first_image {
+      background-image: url(./Images/icon-access-anywhere.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .second_image {
+      background-image: url(./Images/icon-security.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .third_image {
+      background-image: url(./Images/icon-collaboration.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 25px;
+    }
+
+    .fourth_image {
+      background-image: url(./Images/icon-any-file.svg);
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+
+    .first_part {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+      margin-top: 200px;
+    }
+
+    .second_part {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+    }
+
+    /* End of Bolu's styling changes */
+
+    @media screen and (min-width: 900px) {
+
+      /* Faadia styling changes */
+      .navigation a {
+        padding: 14px 16px;
+        font-size: 17px;
+      }
+
+      .header img {
+        width: auto;
+      }
+
+      .container {
+        width: 50%;
+        margin: auto;
+      }
+
+      /* End of Faadia's styling changes */
+
+      /* Bolu's styling changes */
+
+      .first_part {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+        margin-top: 170px;
+      }
+
+      .second_part {
+      display: flex;
+      width: 80%;
+      margin: auto;
+    }
+
+      /* End of Bolu's styling changes */
+    }
+  </style>
 </head>
 
+<<<<<<< HEAD
 <html>
 <body style="darkblue;">
 
@@ -56,6 +245,89 @@
  <img src="57,22: - [Ionicons](https://ionicons.com/Instagram)" alt="Instagram" width="90px" height="100px" </img>
  </p>
 <!--Tanny's section for the last section -->
+=======
+<body>
+  <!-- Beginning of Faadia's section -->
+  <section>
+    <div class="header">
+      <img src="./Images/logo.svg" />
+      <div class="navigation">
+        <a class="active" href="/">Features</a>
+        <a href="/">Team</a>
+        <a href="/">Sign In</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero">
+        <img src="./Images/illustration-intro.png" />
+      </div>
+
+      <div class="header-container">
+        <img src="./Images/bg-curvy-mobile.svg" />
+
+        <div class="header-container-section">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores all your most important files in one secure location. Access them whenever you need, share and
+            collaborate with friends, family and co-workers.</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Faadia's section -->
+
+  <!-- Beginning of Bolu's section -->
+  <section>
+    <div class="general" id="general">
+      <div class="first_part" id="first_part">
+        <div class="first-box">
+          <div class="first_image" id="first_image">
+            <!--The first image is here-->
+          </div>
+          <div class="first_paragraph" id="first_paragraph">
+            <h3>Access your files, anywhere</h3>
+            <p>The ability to use your smartphone, tablet, or computer to access your account means your
+              file follow you everywhere.</p>
+          </div>
+        </div>
+        <div class="second-box" id="second-box">
+          <div class="second_image" id="second_image">
+            <!--The second image is here-->
+          </div>
+          <div class="second_paragraph" id="second_paragraph">
+            <h3>Security you can trust</h3>
+            <p>2-factor authentication and user-controlled encryption are just a couple of the security
+              features we allow to help secure your files.</p>
+          </div>
+        </div>
+      </div>
+      <div class="second_part" id="second_part">
+        <div class="third-box" id="third-box">
+          <div class="third_image" id="third_image">
+            <!--The third image is here-->
+          </div>
+          <div class="third_paragraph" id="third_paragraph">
+            <h3>Real-time collaboration</h3>
+            <p>Securely share files and folders with friends, family, and colleagues for the collaboration.
+              No email attachments required.</p>
+          </div>
+        </div>
+        <div class="fourth-box">
+          <div class="fourth_image" id="fourth_image">
+            <!--The fourth image is here-->
+          </div>
+          <div class="fourth_paragraph" id="fourth_paragraph">
+            <h3>Store any type of file</h3>
+            <p>Whether you're sharing holidays photos or work documents, fylo has you covered, allowing for
+              all file types to be securely stored and shared.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Bolu's section -->
+>>>>>>> 4e7ce5c88a0215e6bae026158c611d7e2fc31459
 </body>
 
 </html>
