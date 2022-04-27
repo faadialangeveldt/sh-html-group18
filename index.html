@@ -3,6 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
   rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <html lang="en">
 
 <head>
@@ -16,6 +17,12 @@
     body {
       background-color: hsl(218, 28%, 13%);
       font-family: 'Raleway', sans-serif;
+    }
+
+    p {
+      font-size: 14px;
+      color: white;
+      line-height: 1.5;
     }
 
     .header {
@@ -60,7 +67,7 @@
       text-align: center;
     }
 
-    .header-container-section {
+    .container-section {
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -68,7 +75,7 @@
       width: 95%;
     }
 
-    .header-container-section h1 {
+    h1 {
       font-family: 'Open Sans', sans-serif;
     }
 
@@ -76,29 +83,109 @@
       background-color: hsl(176, 68%, 64%);
       color: white;
       border: none;
-      padding: 15px 20px;
+      padding: 20px;
       border-radius: 30px;
-      width: 65%;
+      width: 75%;
       font-size: 15px;
       font-weight: bold;
       margin: 20px 0;
     }
 
+    .card-hero img {
+      width: 100%;
+    }
+
+    .card-container h3 {
+      color: white;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .card-container p {
+      text-align: left;
+      margin: 20px;
+    }
+
+    .anchor-link {
+      color: hsl(198, 60%, 50%);
+      text-decoration: underline;
+      margin: 20px;
+    }
+
     /* End of Faadia's styling changes */
+
+    /* Beginning of Funebi's styling changes*/
+    .testimonials {
+      width: 100%;
+      display: flex;
+      margin: 5em auto;
+    }
+
+    .cards {
+      width: 310px;
+      margin: 10px auto;
+      background-color: hsl(219, 30%, 18%);
+      padding: 10px 20px;
+    }
+
+    .cards img {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin: 10px;
+      margin-right: 30px;
+    }
+
+    .infor-area {
+      width: 100%;
+      display: flex;
+    }
+
+    .infor-area span {
+      font-weight: 700;
+    }
+
+    /* End of Funebi's styling changes */
+
+    /* Beginning of Tanny's styling changes */
+    .sign-up-form {
+      background-color: hsl(217, 28%, 15%);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding: 25px 30px;
+      margin: 10px;
+      border-radius: 30px;
+    }
+
+    input {
+      padding: 20px;
+      border-radius: 35px;
+      border: none;
+      width: 65%;
+    }
+
+    input:placeholder {
+      color: gray
+    }
+
+    .form-section {
+      margin: 35px 0 0 0;
+    }
+
+    /* End of Tanny's styling changes */
 
     /* Bolu's styling changes */
     h3 {
-      font-family: raleway;
+      font-family: 'Raleway', sans-serif;
       justify-content: center;
       text-align: center;
       color: white;
     }
 
-    p {
+    .general p {
       font-family: open sans;
       justify-content: center;
       text-align: center;
-      color: white;
     }
 
     .first_image {
@@ -173,6 +260,26 @@
         margin: auto;
       }
 
+      .card-container {
+        display: inline-flex;
+        margin-top: 150px;
+      }
+
+      .card-container img {
+        width: 100%;
+      }
+
+      .card-container-section {
+        width: 50%;
+        margin-left: 50px;
+      }
+
+      .sign-up-form {
+        width: 50%;
+        margin: auto;
+        border-radius: 0;
+      }
+
       /* End of Faadia's styling changes */
 
       /* Bolu's styling changes */
@@ -186,66 +293,31 @@
       }
 
       .second_part {
-      display: flex;
-      width: 80%;
-      margin: auto;
-    }
+        display: flex;
+        width: 80%;
+        margin: auto;
+      }
 
       /* End of Bolu's styling changes */
     }
+
+    /* Beginning of Funebi's styling changes */
+    @media screen and (max-width : 1200px) {
+      .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .cards {
+        align-items: center;
+      }
+    }
+
+    /* End of Funebi's styling changes */
   </style>
 </head>
 
-<<<<<<< HEAD
-<html>
-<body style="darkblue;">
-
-  <div class="w3-container">
-  <h1 style="text-align: center;" style="font-family: raleway;" style="font-size: 14px;"> Get early Access today</h1>
-  <p style="text-align: center;"> It only takes a minute to sign up and our<br>free starter tier is extremely generous. If<br> you have any questions, our support team<br> would be happy to help you.</p>
-
-   <p style="text-align:left";> <img src="57,22: - [Ionicons](https://ionicons.com/location)" alt="Location" width="90px" height="100px" </img>
-  lorem ipsum dolor sit amet,<br>consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore<br>et dolore magna aliqua.
-  </p>
-
-   <p style="text-align:left";> <img src="57,22: - [Ionicons](https://ionicons.com/Phone)" alt="Phone" width="90px" height="100px" </img>
-    +1-543-123-4567
-    </p>
-
-    <p style="text-align: left;"> <img src="57,22: - [Ionicons](https://ionicons.com/Mail)" alt="Mail" width="90px" height="100px" </img>
-      example@fylo.com
-    </p>
-    <style>
-      title>W3.CSS/title> 
-
-      meta name
-    </style>
-    <p style="text-align: center;"><button class="w3-button w3-round-large;">get started for free</button></p>
-    <div>
-    .button {
-      margin: 20px;
-      padding: 20px;
-      border: none:
-    }
-  </div>
-  </body>
-
- <b><p style="text-align: center;">
- <p style="font-size: 14px";> About Us
- <p style="font-size: 14px";>Jobs
- <p style="font-size: 14px;";> Press
- <p style="font-size: 14px";>Blog<br><br><br>Contact Us
- <p style="font-size: 14px";>Terms
- <p style="font-size: 14px";>Privacy
- </p></b>
-
- <p Style="text-align: center";>
- <img src="57,22: - [Ionicons](https://ionicons.com/Facebook)" alt="Facebook" width="90px" height="100px" </img>
- <img src="57,22: - [Ionicons](https://ionicons.com/Twitter)" alt="Twitter" width="90px" height="100px" </img>
- <img src="57,22: - [Ionicons](https://ionicons.com/Instagram)" alt="Instagram" width="90px" height="100px" </img>
- </p>
-<!--Tanny's section for the last section -->
-=======
 <body>
   <!-- Beginning of Faadia's section -->
   <section>
@@ -266,7 +338,7 @@
       <div class="header-container">
         <img src="./Images/bg-curvy-mobile.svg" />
 
-        <div class="header-container-section">
+        <div class="container-section">
           <h1>All your files in one secure location, accessible anywhere.</h1>
           <p>Fylo stores all your most important files in one secure location. Access them whenever you need, share and
             collaborate with friends, family and co-workers.</p>
@@ -327,7 +399,91 @@
     </div>
   </section>
   <!-- End of Bolu's section -->
->>>>>>> 4e7ce5c88a0215e6bae026158c611d7e2fc31459
+
+  <!-- Beginning of Faadia's section -->
+  <section>
+    <div class="card-container">
+      <div class="card-hero">
+        <img src="./Images/illustration-stay-productive.png" alt="">
+      </div>
+      <div class="card-container-section">
+        <h3>Stay productive, wherever you are</h3>
+        <p>Never let location be an issue where accessing your files. Fylo has you covered for all of your file storage
+          needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. no email
+          attachements required.</p>
+
+        <a class="anchor-link">See how Fylo works</a>
+      </div>
+    </div>
+  </section>
+  <!-- End of Faadia's section -->
+
+  <!-- Beginning of Funebi's section -->
+  <section>
+    <div class="testimonials">
+      <div class="cards">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid placeat, libero sequi sapiente nobis
+          veritatis
+          voluptatum reprehenderit et ipsa tempore adipisci velit eum ipsam facere dolorum cum voluptates dolor vel.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="infor-area">
+          <img src="./Images/profile-1.jpg" alt="random picture">
+          <p>
+            <span>Satish Patel</span> <br>
+            Founder & C.E.O Huddle
+          </p>
+        </div>
+      </div>
+      <div class="cards">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid placeat, libero sequi sapiente nobis
+          veritatis
+          voluptatum reprehenderit et ipsa tempore adipisci velit eum ipsam facere dolorum cum voluptates dolor vel.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="infor-area">
+          <img src="./Images/profile-2.jpg" alt="random picture">
+          <p>
+            <span>Bruce Mckenzie</span> <br>
+            Founder & C.E.O Huddle
+          </p>
+        </div>
+      </div>
+      <div class="cards">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid placeat, libero sequi sapiente nobis
+          veritatis
+          voluptatum reprehenderit et ipsa tempore adipisci velit eum ipsam facere dolorum cum voluptates dolor vel.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="infor-area">
+          <img src="./Images/profile-3.jpg" alt="random picture">
+          <p>
+            <span>Iva Boyd</span> <br>
+            Founder & C.E.O Huddle
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Funebi's section -->
+
+  <!-- Beginning of Tanny's section -->
+  <section>
+    <div class="sign-up-form">
+      <h3>Get early access today</h3>
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions,
+        our support team would be happy to help.</p>
+      <div class="form-section">
+        <input type="email" placeholder="email@example.com">
+        <button>Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+  <!--Tanny's section for the last section -->
 </body>
 
 </html>
